@@ -29,4 +29,16 @@ trong file này chứa các lệnh không cho commit 1 số file
 $ git rm --cached namefile
 -rename 1 fike
 $ git mv file 1 file2
+-làm viec voi git log
+git log -p -2:xem 2 log
+git log --stat: xem chi  tiet log
+git log --pretty=oneline
+
+--khi commit quen 1 file chưa commit và không muốn tách thành 2 commit thì sử dung
+$ git commit --amend
+
+--để unstage 1 file khi commit all
+$ git reset HEAD namefile
+
+
 
